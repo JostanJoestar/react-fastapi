@@ -15,3 +15,20 @@ Das Projekt ermöglicht es, Früchte in eine Liste einzutragen und diese an das 
 - **Frontend:** React
 - **Backend:** FastAPI, Python
 - **Kommunikation:** HTTP (REST API)
+
+  
+## Installation
+
+### Backend
+
+1. Virtuelle Umgebung erstellen und aktivieren:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # macOS/Linux
+   venv\Scripts\activate     # Windows
+
+2. pip install fastapi uvicorn pydantic
+3. python3 main.py
+4. cd frontend
+5. npm install
+6. nmp run dev
